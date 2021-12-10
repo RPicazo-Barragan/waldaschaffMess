@@ -1,0 +1,36 @@
+.marginBody{
+    margin: 2rem 4rem 2rem 4rem;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dropZone{
+    display:flex;
+    justify-content: center;
+}
+
+
+.button_submit {
+    width: 100%;
+    text-align: center;
+  }
+
+  .submit {
+    color: #fff;
+    background-color: #001529;
+    font-weight: bolder;
+    height: 50px;
+width: 90%;
+    text-align: center;
+    margin-bottom: 95px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  
+    font-size: 20px;
+    border: 0;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #ddd;
+  }

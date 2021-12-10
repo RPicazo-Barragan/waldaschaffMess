@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "newOperator.module.scss"
+    ],
+    "names": [],
+    "file": "newOperator.module.css"
+}

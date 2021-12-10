@@ -1,0 +1,49 @@
+.marginBody {
+  margin: 2rem 4rem 2rem 4rem;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.dropZone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button_submit {
+  width: 100%;
+  text-align: center;
+}
+
+.submit {
+  color: #fff;
+  background-color: #001529;
+  font-weight: bolder;
+  height: 50px;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 95px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 20px;
+  border: 0;
+  border-radius: 40px;
+  -webkit-box-shadow: 5px 5px 5px #ddd;
+          box-shadow: 5px 5px 5px #ddd;
+}
+/*# sourceMappingURL=newOperatorForm.module.css.map */
