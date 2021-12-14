@@ -54,7 +54,7 @@ function LoginForm() {
                                 <Input type="password" className={styles.InputPers} />
                             </Form.Item>
                         </Form>
-                        <Link href="/linesOverview">
+                        <Link href="/productionScan">
                             <Button type="primary" htmlType="submit" className={styles.btn}>
                                 Iniciar sesion
                         </Button>

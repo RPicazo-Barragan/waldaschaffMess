@@ -1,6 +1,8 @@
 import styles from "../../styles/scanStation.module.scss";
 import { Button, Row, Col, Form, Input, InputNumber, Select } from "antd";
 import Modales from "../components/modal";
+import productionChart from "./productionChart";
+import LineCard from "./lineCard";
 import React, { useState, useRef } from "react";
 import MiniCard from "./miniCard.jsx";
 import Link from "next/link";
@@ -97,7 +99,10 @@ function scanStation() {
               </Form>
             </Col>
           ) : (
-            <div style={{ color: "blue" }}>Div 2</div>
+            <div style={{ color: "blue" }}>
+             <LineCard></LineCard>
+            </div>
+           
           )}
 
           <div className={styles.button_submit}>
